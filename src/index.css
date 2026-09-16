@@ -45,6 +45,7 @@ body,
 
 html {
   -webkit-text-size-adjust: 100%;
+  overscroll-behavior: none;
 }
 
 body {
@@ -752,14 +753,46 @@ th button {
 }
 
 @media (max-width: 1180px) {
+  html,
+  body,
+  #root {
+    height: 100%;
+    height: 100dvh;
+    overflow: hidden;
+    overscroll-behavior: none;
+  }
+
+  body {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+  }
+
+  .app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overscroll-behavior: none;
+    touch-action: pan-y;
+    padding-bottom: calc(76px + env(safe-area-inset-bottom));
+  }
+
   .layout {
     display: grid;
     grid-template-columns: 1fr;
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow: hidden;
   }
 
   .layout > .panel {
     display: none;
-    min-height: auto;
+    min-height: 0;
+    height: 100%;
+    overflow: auto;
+    overscroll-behavior: contain;
+    touch-action: pan-y;
   }
 
   .layout[data-pane="heroes"] > .hero-panel,
@@ -769,15 +802,21 @@ th button {
   }
 
   .hero-list {
-    max-height: min(62vh, 620px);
-  }
-
-  .app {
-    padding-bottom: calc(76px + env(safe-area-inset-bottom));
+    max-height: none;
   }
 
   .desktop-hint {
     display: block;
+    flex: 0 0 auto;
+  }
+
+  .app:has(.layout[data-pane="result"]) .desktop-hint,
+  .app:has(.layout[data-pane="editor"]) .desktop-hint {
+    display: none;
+  }
+
+  .site-stats {
+    display: none;
   }
 
   .mobile-nav {
@@ -945,5 +984,26 @@ th button {
   .table-wrap {
     margin: 0 -4px;
     padding-bottom: 4px;
+  }
+}
+
+@media (max-width: 640px) and (orientation: portrait) {
+  .result-panel .board,
+  .editor-panel .board {
+    width: min(100%, calc(36dvh * 5 / 4));
+    margin-inline: auto;
+  }
+
+  .result-panel h2 {
+    margin-bottom: 8px;
+  }
+
+  .result-panel .stat-grid {
+    margin: 8px 0;
+  }
+
+  .result-panel .hint {
+    padding: 8px 10px;
+    font-size: 12px;
   }
 }
