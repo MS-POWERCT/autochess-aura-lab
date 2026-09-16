@@ -9,13 +9,25 @@
   本地运行，数据留在浏览器里。
 </p>
 
-| | 名称 |
-| --- | --- |
+|             | 名称                 |
+| ----------- | -------------------- |
 | GitHub 仓库 | `autochess-aura-lab` |
-| 英文名 | Auto Chess Aura Lab |
-| 中文名 | 自走棋辐射对比工具 |
+| 英文名      | Auto Chess Aura Lab  |
+| 中文名      | 自走棋辐射对比工具   |
 
-适用于「爪爪大乱斗」这类轻策略自走棋：把棋子放到棋盘上，对局开始后自动战斗。这里的「辐射」就是棋子光环能覆盖到的格子。
+把棋子放到棋盘上，对局开始后自动战斗——这类轻策略自走棋都适用。这里的「辐射」就是棋子光环 / 能量传递能覆盖到的格子。
+
+内置图鉴按《爪爪大乱斗》整理；其它同棋盘游戏可以自己画形状，或用 JSON / 分享链接导入。
+
+### 适用游戏
+
+棋盘是 **5×4** 时最贴合，尤其是同阶合成、站位光环那一类：
+
+| 游戏         | 题材 / 特点                                         |
+| ------------ | --------------------------------------------------- |
+| [爪爪大乱斗] | 萌宠动物。两两合成升星，能量传递，约 5 分钟一局 1V1 |
+| [勇者乱斗]   | 蔬果拟人。合成进化 + 站位博弈，还有双人协作         |
+| [黎明特工]   | 英雄养成自走棋。种族职业搭配，白阶合成到橙阶        |
 
 ---
 
@@ -86,7 +98,9 @@ Vite 7 · React 19 · TypeScript
 
 **Auto Chess Aura Lab** is a browser tool for comparing hero aura / radiation shapes on a **5×4** auto-chess board.
 
-Pick a cell and the left board answers: *if this piece stood here, how many aura cells would still land on the board?* Corner placements lose coverage; center placements usually keep more.
+It started with 爪爪大乱斗 energy-transfer ranges. The same workflow fits other light auto-battlers: 勇者乱斗, 召唤英雄, 矮人军团自走棋, Super Auto Pets, 西行乱斗, Auto Chess, Magic Chess: Go Go, TFT / 金铲铲之战, and similar merge-and-place games.
+
+Pick a cell and the left board answers: _if this piece stood here, how many aura cells would still land on the board?_ Corner placements lose coverage; center placements usually keep more.
 
 You can import built-in rarity packs, draw custom shapes, compare selected heroes, export JSON, and share a link. Everything stays in local storage.
 
