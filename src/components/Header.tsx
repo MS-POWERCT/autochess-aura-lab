@@ -35,13 +35,14 @@ export function Header({ onImport, onExport, onShare }: HeaderProps) {
           导出
         </button>
         <button type="button" onClick={onShare}>
-          分享链接
+          分享<span className="wide-label">链接</span>
         </button>
         <button
           type="button"
           onClick={() => dispatch({ type: "set-theme", theme: state.theme === "dark" ? "light" : "dark" })}
         >
-          {state.theme === "dark" ? "浅色主题" : "深色主题"}
+          {state.theme === "dark" ? "浅色" : "深色"}
+          <span className="wide-label">主题</span>
         </button>
       </div>
     </header>

@@ -45,7 +45,7 @@ export function EditorPanel() {
   }
 
   return (
-    <section className="panel">
+    <section className="panel editor-panel">
       <h2>{state.editingId ? "编辑英雄" : "新建英雄"}</h2>
       <div className="piece-tray">
         <button
@@ -69,7 +69,7 @@ export function EditorPanel() {
           辐射
         </button>
       </div>
-      <p className="muted">点选按钮后点击格子放入，也可以把按钮拖到格子上。</p>
+      <p className="muted">点选按钮后点击格子放入<span className="wide-label">，也可以把按钮拖到格子上</span>。</p>
       <Board
         mode="select"
         theme={state.theme}
@@ -81,7 +81,7 @@ export function EditorPanel() {
       <div className="editor-grid" style={{ marginTop: 12 }}>
         <div className="hint">
           {!draft.position
-            ? "还没有放入英雄。点「英雄」再点棋盘，或把英雄按钮拖进去。"
+            ? "还没有放入英雄。点「英雄」再点棋盘格子。"
             : draft.radiationCells.length === 0
               ? `英雄在 ${formatPosition(draft.position)}。点「辐射」再点格子，放入这个英雄的辐射范围。`
               : `英雄 ${formatPosition(draft.position)}，辐射 ${draft.radiationCells.length} 格。最佳位置辐射数 ${best?.maxCount ?? 0}：${best?.positions.map(formatPosition).join("、")}`}

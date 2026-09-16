@@ -54,7 +54,7 @@ export function ResultPanel() {
   }
 
   return (
-    <section className="panel">
+    <section className="panel result-panel">
       <h2>结果棋盘</h2>
       <Board
         mode="result"
@@ -62,6 +62,7 @@ export function ResultPanel() {
         theme={state.theme}
         heroPosition={state.draft.position}
         highlightKeys={highlightKeys}
+        onCellClick={(position) => dispatch({ type: "hover-cell", position })}
         onCellHover={(position) => dispatch({ type: "hover-cell", position })}
       />
       <div className="stat-grid">

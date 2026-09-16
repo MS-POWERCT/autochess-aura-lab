@@ -103,3 +103,16 @@ test("busuanzi visit stats are wired up", () => {
   assert.match(stats, /本站访客数/);
   assert.match(css, /\.site-stats/);
 });
+
+test("mobile layout uses a pane switcher", () => {
+  const app = readFileSync(join(root, "src/App.tsx"), "utf8");
+  const css = readFileSync(join(root, "src/index.css"), "utf8");
+  const html = readFileSync(join(root, "index.html"), "utf8");
+
+  assert.match(app, /mobile-nav/);
+  assert.match(app, /data-pane/);
+  assert.match(app, /建议用电脑访问/);
+  assert.match(css, /\.mobile-nav/);
+  assert.match(css, /\.desktop-hint/);
+  assert.match(html, /viewport-fit=cover/);
+});
