@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useReducer, useState } from "react";
+import { BusuanziStats } from "./components/BusuanziStats";
 import { Header } from "./components/Header";
 import { HeroList } from "./components/HeroList";
 import { ResultPanel } from "./components/ResultPanel";
@@ -104,6 +105,7 @@ export function App() {
             setExportOpen(false);
           }}
         />
+        <BusuanziStats />
       </div>
     </AppContext.Provider>
   );

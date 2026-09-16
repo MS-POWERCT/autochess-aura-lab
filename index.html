@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
     <title>自走棋辐射对比工具</title>
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" href="/logo.png" />
@@ -10,6 +11,11 @@
   </head>
   <body>
     <div id="root"></div>
+    <div id="busuanzi-root" hidden>
+      <span id="busuanzi_container_site_pv"><span id="busuanzi_value_site_pv"></span></span>
+      <span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv"></span></span>
+    </div>
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

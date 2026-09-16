@@ -7,7 +7,8 @@
     "dev": "vite",
     "test": "node --test scripts/verify.mjs",
     "build": "tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "pack:taptap": "node scripts/pack-taptap.mjs"
   },
   "dependencies": {
     "react": "^19.1.1",

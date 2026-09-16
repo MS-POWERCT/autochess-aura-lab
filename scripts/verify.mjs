@@ -87,3 +87,19 @@ test("brand logo and favicon are wired up", () => {
   assert.match(header, /src="\/logo\.png"/);
   assert.match(css, /\.brand-logo/);
 });
+
+test("busuanzi visit stats are wired up", () => {
+  const html = readFileSync(join(root, "index.html"), "utf8");
+  const app = readFileSync(join(root, "src/App.tsx"), "utf8");
+  const stats = readFileSync(join(root, "src/components/BusuanziStats.tsx"), "utf8");
+  const css = readFileSync(join(root, "src/index.css"), "utf8");
+
+  assert.match(html, /no-referrer-when-downgrade/);
+  assert.match(html, /busuanzi\.ibruce\.info\/busuanzi\/2\.3\/busuanzi\.pure\.mini\.js/);
+  assert.match(html, /busuanzi_value_site_pv/);
+  assert.match(html, /busuanzi_value_site_uv/);
+  assert.match(app, /BusuanziStats/);
+  assert.match(stats, /本站总访问量/);
+  assert.match(stats, /本站访客数/);
+  assert.match(css, /\.site-stats/);
+});

@@ -709,6 +709,17 @@ th button {
   color: var(--muted);
 }
 
+.site-stats {
+  margin-top: 16px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.site-stats-divider {
+  margin: 0 0.55em;
+}
+
 @media (max-width: 1180px) {
   .layout {
     grid-template-columns: 1fr;

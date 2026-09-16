@@ -3,3 +3,5 @@ dist
 .DS_Store
 *.local
 coverage
+.taptap-h5
+*.zip
