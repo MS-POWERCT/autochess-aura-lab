@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "exportedAt": "2026-09-16T02:01:08.179Z",
+  "heroes": [
+    {
+      "name": "蘑菇兔",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 1
+        }
+      ],
+      "rarity": "green",
+      "id": "hero-1789523412103",
+      "createdAt": 1789523412104,
+      "selected": true
+    },
+    {
+      "name": "牛当家",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 0,
+          "row": 2
+        }
+      ],
+      "rarity": "green",
+      "id": "hero-1789523412104",
+      "createdAt": 1789523412105,
+      "selected": true
+    },
+    {
+      "name": "暗影狼",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 2
+        }
+      ],
+      "rarity": "green",
+      "id": "hero-1789523412105",
+      "createdAt": 1789523412106,
+      "selected": true
+    },
+    {
+      "name": "马经理",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 2
+        }
+      ],
+      "rarity": "green",
+      "id": "hero-1789523412106",
+      "createdAt": 1789523412107,
+      "selected": true
+    },
+    {
+      "name": "圣女猫",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 3
+        }
+      ],
+      "rarity": "green",
+      "id": "hero-1789523412107",
+      "createdAt": 1789523412108,
+      "selected": true
+    }
+  ]
+}

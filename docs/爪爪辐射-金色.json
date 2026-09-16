@@ -1,0 +1,992 @@
+{
+  "version": 1,
+  "exportedAt": "2026-09-16T02:15:50.721Z",
+  "heroes": [
+    {
+      "id": "hero-1789522321539",
+      "name": "海神鲨",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 1
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789522321540
+    },
+    {
+      "id": "hero-1789522321540",
+      "name": "狮子王",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 2
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789522321541
+    },
+    {
+      "id": "hero-1789522704797",
+      "name": "暴龙鱼",
+      "position": {
+        "col": 2,
+        "row": 3
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 3
+        },
+        {
+          "col": 3,
+          "row": 3
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789522704798
+    },
+    {
+      "id": "hero-1789522704798",
+      "name": "勇士熊",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 3
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789522704799
+    },
+    {
+      "id": "hero-1789522704799",
+      "name": "金翅大鹏",
+      "position": {
+        "col": 2,
+        "row": 0
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 2
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789522704800
+    },
+    {
+      "id": "hero-1789522704800",
+      "name": "灵鹿萨满",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 3
+        },
+        {
+          "col": 3,
+          "row": 3
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789522704801
+    },
+    {
+      "id": "hero-1789522704801",
+      "name": "巨蜥战将",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 3
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789522704802
+    },
+    {
+      "id": "hero-1789522704802",
+      "name": "蜗皇",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 0
+        },
+        {
+          "col": 3,
+          "row": 0
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789522704803
+    },
+    {
+      "id": "hero-1789522704803",
+      "name": "探长兔",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 2
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789522704804
+    },
+    {
+      "id": "hero-1789523412112",
+      "name": "街头狐",
+      "position": {
+        "col": 2,
+        "row": 3
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 3
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789523412113
+    },
+    {
+      "id": "hero-1789523412113",
+      "name": "甜心蜜獾",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "row": 3
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789523412114
+    },
+    {
+      "id": "hero-1789523412114",
+      "name": "冰霜战熊",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 1
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789523412115
+    },
+    {
+      "id": "hero-1789523412115",
+      "name": "云鹤",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 0
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789523412116
+    },
+    {
+      "id": "hero-1789523412116",
+      "name": "偶像鸡",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 1
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789523412117
+    },
+    {
+      "id": "hero-1789523412117",
+      "name": "黑暗公爵",
+      "position": {
+        "col": 2,
+        "row": 3
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 3
+        },
+        {
+          "col": 3,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 2
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789523412118
+    },
+    {
+      "id": "hero-1789523412118",
+      "name": "虚空鸟",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 3
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789523412119
+    },
+    {
+      "id": "hero-1789523412119",
+      "name": "火风仙子",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 3
+        }
+      ],
+      "rarity": "gold",
+      "selected": true,
+      "createdAt": 1789523412120
+    },
+    {
+      "name": "机关大圣",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 0
+        },
+        {
+          "col": 3,
+          "row": 0
+        },
+        {
+          "col": 3,
+          "row": 1
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482110",
+      "createdAt": 1789524482111,
+      "selected": true
+    },
+    {
+      "name": "混沌使者",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 2
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482111",
+      "createdAt": 1789524482112,
+      "selected": true
+    },
+    {
+      "name": "红皇后",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 1
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482112",
+      "createdAt": 1789524482113,
+      "selected": true
+    },
+    {
+      "name": "吞天鲸",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 2
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482113",
+      "createdAt": 1789524482114,
+      "selected": true
+    },
+    {
+      "name": "海德威",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 2
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482114",
+      "createdAt": 1789524482115,
+      "selected": true
+    },
+    {
+      "name": "幽焰孔雀",
+      "position": {
+        "col": 2,
+        "row": 3
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 1
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482115",
+      "createdAt": 1789524482116,
+      "selected": true
+    },
+    {
+      "name": "电工虎",
+      "position": {
+        "col": 3,
+        "row": 3
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 1
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482116",
+      "createdAt": 1789524482117,
+      "selected": true
+    },
+    {
+      "name": "焰律赤犬",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 2
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482117",
+      "createdAt": 1789524482118,
+      "selected": true
+    },
+    {
+      "name": "渊梦呆鸭",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 2
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482118",
+      "createdAt": 1789524482119,
+      "selected": true
+    },
+    {
+      "name": "焰翼战龙",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 3
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482119",
+      "createdAt": 1789524482120,
+      "selected": true
+    },
+    {
+      "name": "闪电鼠",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "row": 3
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482120",
+      "createdAt": 1789524482121,
+      "selected": true
+    },
+    {
+      "name": "水炮龟",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 2
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482121",
+      "createdAt": 1789524482122,
+      "selected": true
+    },
+    {
+      "name": "猛犸族长",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 1
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482122",
+      "createdAt": 1789524482123,
+      "selected": true
+    },
+    {
+      "name": "雪豹战警",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "row": 3
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482123",
+      "createdAt": 1789524482124,
+      "selected": true
+    },
+    {
+      "name": "死神鼠",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 3
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482124",
+      "createdAt": 1789524482125,
+      "selected": true
+    },
+    {
+      "name": "结晶犬",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 3
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482125",
+      "createdAt": 1789524482126,
+      "selected": true
+    },
+    {
+      "name": "鬼影狒狒",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 2
+        }
+      ],
+      "rarity": "gold",
+      "id": "hero-1789524482126",
+      "createdAt": 1789524482127,
+      "selected": true
+    }
+  ]
+}

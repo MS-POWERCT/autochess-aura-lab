@@ -1,0 +1,231 @@
+{
+  "version": 1,
+  "exportedAt": "2026-09-16T01:54:22.665Z",
+  "heroes": [
+    {
+      "name": "急速树懒",
+      "position": {
+        "col": 4,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 1
+        }
+      ],
+      "rarity": "purple",
+      "id": "hero-1789523412103",
+      "createdAt": 1789523412104,
+      "selected": true
+    },
+    {
+      "name": "犀牛司机",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 2
+        }
+      ],
+      "rarity": "purple",
+      "id": "hero-1789523412104",
+      "createdAt": 1789523412105,
+      "selected": true
+    },
+    {
+      "name": "雷霆之羊",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 0
+        },
+        {
+          "col": 3,
+          "row": 0
+        }
+      ],
+      "rarity": "purple",
+      "id": "hero-1789523412105",
+      "createdAt": 1789523412106,
+      "selected": true
+    },
+    {
+      "name": "渡鸦",
+      "position": {
+        "col": 2,
+        "row": 0
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 3
+        }
+      ],
+      "rarity": "purple",
+      "id": "hero-1789523412106",
+      "createdAt": 1789523412107,
+      "selected": true
+    },
+    {
+      "name": "忍者猫",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 2
+        }
+      ],
+      "rarity": "purple",
+      "id": "hero-1789523412107",
+      "createdAt": 1789523412108,
+      "selected": true
+    },
+    {
+      "name": "狡诈蛇",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 2
+        }
+      ],
+      "rarity": "purple",
+      "id": "hero-1789523412108",
+      "createdAt": 1789523412109,
+      "selected": true
+    },
+    {
+      "name": "长臂拳王",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "row": 1
+        }
+      ],
+      "rarity": "purple",
+      "id": "hero-1789523412109",
+      "createdAt": 1789523412110,
+      "selected": true
+    },
+    {
+      "name": "魔法猫",
+      "position": {
+        "col": 1,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 0,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 2
+        }
+      ],
+      "rarity": "purple",
+      "id": "hero-1789523412110",
+      "createdAt": 1789523412111,
+      "selected": true
+    },
+    {
+      "name": "魔界蛙",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "row": 1
+        }
+      ],
+      "rarity": "purple",
+      "id": "hero-1789523412111",
+      "createdAt": 1789523412112,
+      "selected": true
+    }
+  ]
+}

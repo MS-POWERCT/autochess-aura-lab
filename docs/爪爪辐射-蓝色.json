@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "exportedAt": "2026-09-16T01:58:33.280Z",
+  "heroes": [
+    {
+      "name": "温泉羊",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 1
+        }
+      ],
+      "rarity": "blue",
+      "id": "hero-1789523412103",
+      "createdAt": 1789523412104,
+      "selected": true
+    },
+    {
+      "name": "浣熊小子",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 2
+        }
+      ],
+      "rarity": "blue",
+      "id": "hero-1789523412104",
+      "createdAt": 1789523412105,
+      "selected": true
+    },
+    {
+      "name": "雷霆战龟",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 2
+        }
+      ],
+      "rarity": "blue",
+      "id": "hero-1789523412105",
+      "createdAt": 1789523412106,
+      "selected": true
+    },
+    {
+      "name": "工人鼠",
+      "position": {
+        "col": 1,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 1
+        }
+      ],
+      "rarity": "blue",
+      "id": "hero-1789523412106",
+      "createdAt": 1789523412107,
+      "selected": true
+    },
+    {
+      "name": "灵狐射手",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 2,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 2
+        }
+      ],
+      "rarity": "blue",
+      "id": "hero-1789523412107",
+      "createdAt": 1789523412108,
+      "selected": true
+    },
+    {
+      "name": "狐meng卫士",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 2
+        }
+      ],
+      "rarity": "blue",
+      "id": "hero-1789523412108",
+      "createdAt": 1789523412109,
+      "selected": true
+    },
+    {
+      "name": "弹簧豹",
+      "position": {
+        "col": 2,
+        "row": 1
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "row": 2
+        }
+      ],
+      "rarity": "blue",
+      "id": "hero-1789523412109",
+      "createdAt": 1789523412110,
+      "selected": true
+    },
+    {
+      "name": "狂蜂",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 3,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "row": 3
+        }
+      ],
+      "rarity": "blue",
+      "id": "hero-1789523412110",
+      "createdAt": 1789523412111,
+      "selected": true
+    },
+    {
+      "name": "雪狐女王",
+      "position": {
+        "col": 2,
+        "row": 2
+      },
+      "radiationCells": [
+        {
+          "col": 1,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "row": 2
+        }
+      ],
+      "rarity": "blue",
+      "id": "hero-1789523412111",
+      "createdAt": 1789523412112,
+      "selected": true
+    }
+  ]
+}
